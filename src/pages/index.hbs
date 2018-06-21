@@ -4,66 +4,57 @@ tags: SiteMap
 layout: default.hbs
 ---
 
-<div class="container">
-	<div class="row">
-		<div class="gap"></div>
-		<h3 class="text-center">Search for Git Repo with user name</h3>
-		<div class="gap"></div>
 
+	<div class="notification">
+		Notification text..!
+	</div>
+
+<div class="main-content">
+	<div class="container">
+		<div class="gap"></div>
+		
+		<h3 class="text-center">
+			<img src="/site/images/logo.png" /> <br>
+			Search for GitHub Repositories
+		</h3>
+
+		<div class="gap"></div>
 		<div class="input-group">
-			<input type="text" value="naveenkumarpg" class="form-control username" placeholder="Search for...">
+			<input type="text" class="form-control username" placeholder="Please enter GitHub Username ...">
 			<span class="input-group-btn">
 				<button class="btn btn-default getdata" type="button">Pull user repos .. !</button>
 			</span>
 		</div>
+
 	</div>
-</div>
-	
-<div class="gap"></div>
 
-<div id="results" class="container">
-	<div class="row">
-		<div class="error-container hide">No user data found ...!</div>
-		<div class="result-container hide">
+	<div class="gap"></div>
 
+	<div id="results" class="container">
+
+		<div id="loader" class="text-center hide">
+			<img width="250" src="/site/images/github-loader.gif">
+			<br/>
+			<br/>
+			<b>Loading...!</b>
 		</div>
-
+		
+		<div class="error-container hide">No user data found ...!</div>
+		<div class="result-container hide"></div>
 	</div>
 </div>
 
-
-
-{{!-- 
-<div class="panel panel-default">
-			<div class="panel-heading">Panel heading</div>
-			<table class="table">
-				<thead>
-					<tr>
-						<th>#</th>
-						<th>First Name</th>
-						<th>Last Name</th>
-						<th>Username</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<th scope="row">1</th>
-						<td>Mark</td>
-						<td>Otto</td>
-						<td>@mdo</td>
-					</tr>
-					<tr>
-						<th scope="row">2</th>
-						<td>Jacob</td>
-						<td>Thornton</td>
-						<td>@fat</td>
-					</tr>
-					<tr>
-						<th scope="row">3</th>
-						<td>Larry</td>
-						<td>the Bird</td>
-						<td>@twitter</td>
-					</tr>
-				</tbody>
-			</table>
-		</div> --}}
+<div class="mask createissuewrapper hide">
+		<div class="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2 createissueform">
+			<div class="close"></div>
+			<div class="input-group mb-sixteen">
+				<span class="input-group-addon" id="basic-addon1">What is the issue</span>
+				<input type="text" class="form-control title" placeholder="Title" aria-describedby="basic-addon1" />
+			</div>
+			<div class="input-group mb-sixteen">
+				<span class="input-group-addon" id="basic-addon2">Describe in detail</span>
+				<textarea type="text" class="form-control description" placeholder="Description" aria-describedby="basic-addon2"></textarea>
+			</div>
+			<button class="btn btn-primary updateissue">Create issue</button>
+		</div>
+	</div>
