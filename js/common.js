@@ -65,7 +65,7 @@ GIT.utils = {
         var request = $.ajax({
             url: requri,
             beforeSend: function(xhr){
-                xhr.setRequestHeader("Authorization", "token 0417d4ce86ff049ddc059d9a16193ec4c0bb1f4c");
+                xhr.setRequestHeader("Authorization", "token d666281fbf00e22c7c5031b18c2400782396b2e1");
             }
           });
 
@@ -117,7 +117,7 @@ GIT.utils = {
         var request = $.ajax({
             url: requri,
             beforeSend: function(xhr){
-                xhr.setRequestHeader("Authorization", "token 0417d4ce86ff049ddc059d9a16193ec4c0bb1f4c");
+                xhr.setRequestHeader("Authorization", "token d666281fbf00e22c7c5031b18c2400782396b2e1");
             }
         }); 
 
@@ -160,7 +160,7 @@ GIT.utils = {
             url: url,
             type: "POST",
             beforeSend: function(xhr){
-              xhr.setRequestHeader("Authorization", "token 0417d4ce86ff049ddc059d9a16193ec4c0bb1f4c");
+              xhr.setRequestHeader("Authorization", "token d666281fbf00e22c7c5031b18c2400782396b2e1");
             },
             data: JSON.stringify(params),
             complete: function(xhr) {
