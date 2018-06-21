@@ -1,0 +1,73 @@
+
+//http://naveenkumarpg.github.io/poc/git/index.html
+
+//tocken 0417d4ce86ff049ddc059d9a16193ec4c0bb1f4c
+
+ 
+ //   $.ajax({
+        //     url: url,
+        //     headers: {Authorization :'tocken 0417d4ce86ff049ddc059d9a16193ec4c0bb1f4c'},
+        //     type: "POST",
+        //     data: JSON.stringify(params),
+        //     complete: function(xhr) {
+        //         console.log('Call completed');
+        //     }
+        //   });
+
+
+	<a href="https://github.com/login/oauth/authorize?scope=user:naveenkumarpg@gmail.com&client_id=fbb673c410d7f92233be">Click here</a> to begin!</a>
+	<br>
+
+	<a href="https://github.com/login/oauth/access_token?client_id=fbb673c410d7f92233be&client_secret=06f85e4d08893b19dd8fb2fcd2a54bfbf259eb66&code=982038f80597aaedab27">Authnew</a>
+	<br>
+	
+	<div class="authenticate">
+		authenticate
+	</div>
+
+
+
+ //url: "https://github.com/login/oauth/access_token&client_id=fbb673c410d7f92233be&client_secret=06f85e4d08893b19dd8fb2fcd2a54bfbf259eb66&code=9ad612729dbfceb6c070",
+
+
+        //  $(".authenticate").click(function(){
+
+        //     var options = {
+        //         "client_id" : "fbb673c410d7f92233be",
+        //         "client_secret" : "06f85e4d08893b19dd8fb2fcd2a54bfbf259eb66",
+        //         "code" : "982038f80597aaedab27"
+        //     };
+
+        //     $.ajax({
+        //         url: "https://github.com/login/oauth/access_token",
+        //         data: options,
+        //         type:"POST",
+        //         headers: { 'Access-Control-Allow-Origin': '*', 'user-agent': 'git-technetium' },
+        //         complete: function(xhr) {
+        //             alert("Working");
+        //         }
+        //         });
+        // });
+        
+        
+        // $(".authenticate").click(function(){
+        //     $.ajax({
+        //         url: "https://github.com/login/oauth/access_token",
+        //         complete: function(xhr) {
+        //             alert("Working");
+        //         }
+        //         });
+        // });
+
+
+
+
+        // $(".authenticate").click(function(){
+        //     $.ajax({
+        //         url: "https://github.com/login/oauth/authorize",
+        //         type:"GET",
+        //         complete: function(xhr) {
+        //           alert("Working");
+        //         }
+        //       });
+        // });
