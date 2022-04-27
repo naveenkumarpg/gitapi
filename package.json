@@ -15,7 +15,7 @@
     "author": "Naveen Kumar PG, Gmail <naveenkumarpg@gmail.com>",
     "license": "MIT",
     "devDependencies": {
-        "grunt": "^0.4.5",
+        "grunt": "^1.5.2",
         "grunt-browser-sync": "^2.2.0",
         "grunt-contrib-cssmin": "^0.10.0",
         "grunt-contrib-jshint": "^0.11.0",
